@@ -1,0 +1,180 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header .logo p {
+    margin: 5px 0;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(to right, #007BFF, #00C6FF);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h2 {
+    font-size: 2rem;
+    margin: 0 0 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin: 0 0 30px;
+}
+
+#hero .btn {
+    background-color: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#hero .btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Main Content (Article) */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+main .date, main .author {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin: 20px 0;
+}
+
+main .article-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlights Section */
+#highlights {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#highlights h3 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.articles-preview {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.articles-preview article {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.articles-preview article h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.articles-preview article p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.articles-preview article a {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
